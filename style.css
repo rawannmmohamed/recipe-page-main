@@ -47,7 +47,8 @@ main h1 {
 }
 p,
 li,
-h4 , td:first-child{
+h4,
+td:first-child {
   font-family: "Outfit";
   color: var(--Wenge-Brown);
   margin-bottom: 1em;
@@ -73,7 +74,7 @@ li::marker {
 li {
   padding-left: 1.5em;
 }
-h2{
+h2 {
   font-family: "YoungSerif";
   color: var(--Nutmeg);
   font-weight: 400;
@@ -97,38 +98,41 @@ span {
   font-weight: 600;
   color: var(--Wenge-Brown);
 }
-table{
-   width: 100%;
-   border-collapse: collapse;
-   td{
+table {
+  width: 100%;
+  border-collapse: collapse;
+  td {
     border-bottom: 0.5px solid var(--Eggshell);
     padding: 1em 1.5em;
-   }
-   td:nth-child(2){
+  }
+  td:nth-child(2) {
     color: var(--Nutmeg);
     font-weight: 700;
-    font-family: 'Outfit';
-   }
-   tr:last-child td{
+    font-family: "Outfit";
+  }
+  tr:last-child td {
     border-bottom: none;
-   }
+  }
 }
-@media (max-width:500px) {
-    .container{
-        width: 100%;
-        margin:0;
-        padding: 0;
-        border-radius: 0;
-    }
-    img{
-        margin: 0;
-        border-radius: 0;
-    }
-    .ingredients,.instructions,.Nutrition,.preparation-time, main{
-         padding: 2em;
-    }
-    .preparation-time{
-        border-radius: 0;
-    }
-    
+@media (max-width: 500px) {
+  .container {
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    border-radius: 0;
+  }
+  img {
+    margin: 0;
+    border-radius: 0;
+  }
+  .ingredients,
+  .instructions,
+  .Nutrition,
+  .preparation-time,
+  main {
+    padding: 2em;
+  }
+  .preparation-time {
+    border-radius: 0;
+  }
 }
